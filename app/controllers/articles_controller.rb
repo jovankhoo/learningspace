@@ -40,8 +40,6 @@ class ArticlesController < ApplicationController
     @articles = Article.all
   end
 
-
-
   private
   
     def set_article
